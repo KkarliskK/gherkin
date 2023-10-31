@@ -1,0 +1,60 @@
+function GherkinTable() {
+    return(
+        <table>
+            <thead>
+                <tr>
+                    <th>Latvian</th>
+                    <th>English</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Funkcionāla iezīme</td>
+                    <td>Feature</td>
+                </tr>
+                <tr>
+                    <td>Konteksts</td>
+                    <td>Background</td>
+                </tr>
+                <tr>
+                    <td>Scenārijs</td>
+                    <td>Scenario</td>
+                </tr>
+                <tr>
+                    <td>Scenārijs pēc parauga</td>
+                    <td>ScenarioOutline</td>
+                </tr>
+                <tr>
+                    <td>Examples</td>
+                    <td>Piemēri</td>
+                </tr>
+                <tr>
+                    <td>Kad</td>
+                    <td>Given</td>
+                </tr>
+                <tr>
+                    <td>Ja</td>
+                    <td>When</td>
+                </tr>
+                <tr>
+                    <td>Tad</td>
+                    <td>Then</td>
+                </tr>
+                <tr>
+                    <td>Un</td>
+                    <td>And</td>
+                </tr>
+                <tr>
+                    <td>Bet</td>
+                    <td>But</td>
+                </tr>
+                <tr>
+                    <td>Rule</td>
+                    <td>Rule</td>
+                </tr>
+            </tbody>
+      </table>
+    );
+}   
+
+export default GherkinTable;

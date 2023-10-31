@@ -1,8 +1,9 @@
+import GherkinTable from './components/Table.js';
+import './global.css';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <GherkinTable />
   );
 }
 
